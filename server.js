@@ -40,9 +40,11 @@ const mainRouter = new Router();
 
 const API_POST_STATS_URI = `/${API_PREFIX}/${API_VERSION}/${ config.get('api.baseUri.postStatsApi') }`;
 const API_WATCHLIST_URI = `/${API_PREFIX}/${API_VERSION}/${ config.get('api.baseUri.watchlistApi') }`;
+const API_POSTS_URI = `/${API_PREFIX}/${API_VERSION}/${ config.get('api.baseUri.postsApi') }`;
 
-mainRouter.add(API_POST_STATS_URI, require('./post-stats-api/postStatsRouter'));
-mainRouter.add(API_WATCHLIST_URI, require('./watchlist-api/watchlistRouter'));
+mainRouter.add(API_POST_STATS_URI, require('./api/post-stats-api/postStatsRouter'));
+mainRouter.add(API_WATCHLIST_URI, require('./api/watchlist-api/watchlistRouter'));
+mainRouter.add(API_POSTS_URI, require('./api/posts-api/postsRouter'));
 mainRouter.applyRoutes(server);
 
 server.listen(API_PORT, API_IP, () => {

@@ -3,7 +3,7 @@ const config = require('config');
 const Router = require('restify-router').Router;
 const HttpStatus = require('http-status-codes');
 const postStats = require('./samples/poststats');
-const { paginate } = require('../common/utils/pagination');
+const { paginate } = require('../../common/utils/pagination');
 
 
 const router = new Router();
