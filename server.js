@@ -2,6 +2,7 @@
 const config = require('config');
 const restify = require('restify');
 const Router = require('restify-router').Router;
+const corsMiddleware = require('restify-cors-middleware');
 
 const API_NAME = config.get('api.name');
 const API_IP = config.get('api.host.ip');
@@ -23,13 +24,25 @@ server.use(restify.plugins.bodyParser());
 server.use(restify.plugins.queryParser());
 server.use(restify.plugins.authorizationParser());
 
+// CORS
+const cors = corsMiddleware({
+  preflightMaxAge: 5, //Optional
+  origins: ['http://localhost:3000'],
+  allowHeaders: ['API-Token'],
+  exposeHeaders: ['API-Token-Expiry']
+});
+
+server.pre(cors.preflight);
+server.use(cors.actual);
+
 const mainRouter = new Router();
 
 
 const API_POST_STATS_URI = `/${API_PREFIX}/${API_VERSION}/${ config.get('api.baseUri.postStatsApi') }`;
-console.log(API_POST_STATS_URI);
-mainRouter.add(API_POST_STATS_URI, require('./post-stats-api/postStatsRouter'));
+const API_WATCHLIST_URI = `/${API_PREFIX}/${API_VERSION}/${ config.get('api.baseUri.watchlistApi') }`;
 
+mainRouter.add(API_POST_STATS_URI, require('./post-stats-api/postStatsRouter'));
+mainRouter.add(API_WATCHLIST_URI, require('./watchlist-api/watchlistRouter'));
 mainRouter.applyRoutes(server);
 
 server.listen(API_PORT, API_IP, () => {
