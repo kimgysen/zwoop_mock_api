@@ -15,7 +15,8 @@ module.exports = {
     baseUri: {
       postsApi: 'posts-api',
       postStatsApi: 'post-stats-api',
-      watchlistApi: 'watchlist-api'
+      watchlistApi: 'watchlist-api',
+      placesApi: 'places-api'
     },
   },
 };
