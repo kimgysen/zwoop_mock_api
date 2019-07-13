@@ -10,7 +10,7 @@ exports.generateSamplePosts = (googlePlaceId, offset, limit ) => {
 
     for (let i = offset; i < limit; i++) {
 
-        let postId = random.generateRandomIdBetween(1, 100);
+        let postId = 'post-' + i;
         let randomUser = random.generateRandomIdBetween(1, 10);
         let randomImg = random.generateRandomIdBetween(1, 3);
         let nrComments = random.generateRandomIdBetween(1, 20);
