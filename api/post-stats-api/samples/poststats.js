@@ -3,72 +3,84 @@ module.exports = [
   {
     "googlePlaceId": "ChIJ2XW7iITDw0cR3x16jlX5fW0",
     "googlePlaceName": "Flamingo",
+    "imgUri": "http://localhost:8050/public/img/google/ChIJ2XW7iITDw0cR3x16jlX5fW0.png",
     "nrPosts": 100,
     "lastPostTs": 1561498682
   },
   {
     "googlePlaceId": "ChIJrZGi8obDw0cRFZ4ojoZRX6U",
     "googlePlaceName": "Beguin",
+    "imgUri": "http://localhost:8050/public/img/google/ChIJrZGi8obDw0cRFZ4ojoZRX6U.png",
     "nrPosts": 99,
     "lastPostTs": 1561499923
   },
   {
     "googlePlaceId": "ChIJ-fpfgXjEw0cRJL5iIrfXMyg",
     "googlePlaceName": "The Big Game",
+    "imgUri": "http://localhost:8050/public/img/google/ChIJ-fpfgXjEw0cRJL5iIrfXMyg.png",
     "nrPosts": 98,
     "lastPostTs": 1561547977
   },
   {
     "googlePlaceId": "ChIJB9kyvYDDw0cRktLYfi304SY",
     "googlePlaceName": "Delirium Café",
+      "imgUri": "http://localhost:8050/public/img/google/ChIJB9kyvYDDw0cRktLYfi304SY.png",
     "nrPosts": 97,
     "lastPostTs": 1561548888
   },
   {
     "googlePlaceId": "ChIJfYfwJInDw0cRbcPwIJKidHw",
     "googlePlaceName": "Life is Beautiful",
+    "imgUri": "http://localhost:8050/public/img/google/ChIJfYfwJInDw0cRbcPwIJKidHw.png",
     "nrPosts": 96,
     "lastPostTs": 1561548970
   },
   {
     "googlePlaceId": "ChIJWadeF3nEw0cRQ-1b9yc4Cm4",
     "googlePlaceName": "Poechenellekelder",
+      "imgUri": "http://localhost:8050/public/img/google/ChIJWadeF3nEw0cRQ-1b9yc4Cm4.png",
     "nrPosts": 95,
     "lastPostTs": 1561548999
   },
   {
     "googlePlaceId": "ChIJrQSn84nEw0cReTbbrvyMoQI",
     "googlePlaceName": "Loui Bar",
+    "imgUri": "http://localhost:8050/public/img/google/ChIJrQSn84nEw0cReTbbrvyMoQI.png",
     "nrPosts": 94,
     "lastPostTs": 1561549018
   },
   {
     "googlePlaceId": "ChIJ7UIRgYfDw0cRjtxVmcidryw",
     "googlePlaceName": "O'Reilly's",
+    "imgUri": "http://localhost:8050/public/img/google/ChIJ7UIRgYfDw0cRjtxVmcidryw.png",
     "nrPosts": 93,
     "lastPostTs": 1561549043
   },
   {
     "googlePlaceId": "ChIJjyLoKX_Ew0cRksSuvBJDWk4",
     "googlePlaceName": "Goupil Le Fol",
+    "imgUri": "http://localhost:8050/public/img/google/ChIJjyLoKX_Ew0cRksSuvBJDWk4.png",
     "nrPosts": 92,
     "lastPostTs": 1561549063
   },
   {
     "googlePlaceId": "ChIJv5c39IfDw0cR27uOobG_LEM",
     "googlePlaceName": "La Machine",
+    "imgUri": "http://localhost:8050/public/img/google/ChIJv5c39IfDw0cR27uOobG_LEM.png",
     "nrPosts": 91,
     "lastPostTs": 1561549089
   },
   {
     "googlePlaceId": "ChIJYyZ4XIfDw0cR8zDr5x08H_Y",
     "googlePlaceName": "Celtica",
+    "imgUri": "http://localhost:8050/public/img/google/",
     "nrPosts": 90,
     "lastPostTs": 1561549109
   },
   {
     "googlePlaceId": "ChIJ8Rr48njEw0cRSByZFFrR46o",
     "googlePlaceName": "Station BXL",
+    "imgUri": "http://localhost:8050/public/img/google/",
     "nrPosts": 89,
     "lastPostTs": 1561549133
   },

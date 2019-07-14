@@ -13,7 +13,7 @@ const API_VERSION = config.get('api.version');
 const getPostsByPlaceId = (req, res, next) => {
   const placeId = req.params.placeId;
 
-  const posts = generateSamplePosts(placeId, 1, 10);
+  const posts = generateSamplePosts(placeId, 0, 10);
 
   res.send(HttpStatus.OK, posts);
 };

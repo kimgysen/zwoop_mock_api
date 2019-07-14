@@ -24,6 +24,11 @@ server.use(restify.plugins.bodyParser());
 server.use(restify.plugins.queryParser());
 server.use(restify.plugins.authorizationParser());
 
+server.get('/public/img/*', restify.plugins.serveStatic({
+    directory: __dirname
+}));
+
+
 // CORS
 const cors = corsMiddleware({
   preflightMaxAge: 5, //Optional
