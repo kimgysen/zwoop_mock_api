@@ -73,122 +73,140 @@ module.exports = [
   {
     "googlePlaceId": "ChIJYyZ4XIfDw0cR8zDr5x08H_Y",
     "googlePlaceName": "Celtica",
-    "imgUri": "http://localhost:8050/public/img/google/",
+    "imgUri": "http://localhost:8050/public/img/google/ChIJYyZ4XIfDw0cR8zDr5x08H_Y.png",
     "nrPosts": 90,
     "lastPostTs": 1561549109
   },
   {
     "googlePlaceId": "ChIJ8Rr48njEw0cRSByZFFrR46o",
     "googlePlaceName": "Station BXL",
-    "imgUri": "http://localhost:8050/public/img/google/",
+    "imgUri": "http://localhost:8050/public/img/google/ChIJ8Rr48njEw0cRSByZFFrR46o.png",
     "nrPosts": 89,
     "lastPostTs": 1561549133
   },
   {
     "googlePlaceId": "ChIJQ9lupYDDw0cRRHhn3i-HVc4",
     "googlePlaceName": "Rooster's",
+    "imgUri": "http://localhost:8050/public/img/google/ChIJQ9lupYDDw0cRRHhn3i-HVc4.png",
     "nrPosts": 87,
     "lastPostTs": 1561549158
   },
   {
     "googlePlaceId": "ChIJbz-qiHjEw0cRJj6bWn3sM9M",
     "googlePlaceName": "Bonnefooi",
+    "imgUri": "http://localhost:8050/public/img/google/ChIJbz-qiHjEw0cRJj6bWn3sM9M.png",
     "nrPosts": 86,
     "lastPostTs": 1561549193
   },
   {
     "googlePlaceId": "ChIJVWaaLIbDw0cRHFJcHcDDIt8",
     "googlePlaceName": "Roskam",
+    "imgUri": "http://localhost:8050/public/img/google/ChIJVWaaLIbDw0cRHFJcHcDDIt8.png",
     "nrPosts": 85,
     "lastPostTs": 1561549210
   },
   {
     "googlePlaceId": "ChIJz_LXL3_Ew0cRBPrhdOsx_ow",
     "googlePlaceName": "Au Brasseur",
+    "imgUri": "http://localhost:8050/public/img/google/ChIJz_LXL3_Ew0cRBPrhdOsx_ow.png",
     "nrPosts": 84,
     "lastPostTs": 1561549230
   },
   {
     "googlePlaceId": "ChIJIyZ0WYfDw0cRk0UhBokK0R4",
     "googlePlaceName": "A la Bécasse",
+    "imgUri": "http://localhost:8050/public/img/google/ChIJIyZ0WYfDw0cRk0UhBokK0R4.png",
     "nrPosts": 83,
     "lastPostTs": 1561549254
   },
   {
     "googlePlaceId": "ChIJ784G8njEw0cRChchxYl_BW8",
     "googlePlaceName": "La Belgica",
+    "imgUri": "http://localhost:8050/public/img/google/ChIJ784G8njEw0cRChchxYl_BW8.png",
     "nrPosts": 82,
     "lastPostTs": 1561549276
   },
   {
     "googlePlaceId": "ChIJ5ZZmOn_Ew0cRudnhY_vjyrM",
     "googlePlaceName": "Hard Rock Café",
+    "imgUri": "http://localhost:8050/public/img/google/ChIJ5ZZmOn_Ew0cRudnhY_vjyrM.png",
     "nrPosts": 81,
     "lastPostTs": 1561549293
   },
   {
     "googlePlaceId": "ChIJae3aL3_Ew0cRzBfF48ap-Lo",
     "googlePlaceName": "Golden Bar",
+    "imgUri": "http://localhost:8050/public/img/google/ChIJae3aL3_Ew0cRzBfF48ap-Lo.png",
     "nrPosts": 80,
     "lastPostTs": 1561549316
   },
   {
     "googlePlaceId": "ChIJLQ-HVYfDw0cRn6u8foioOqM",
     "googlePlaceName": "La reserve",
+    "imgUri": "http://localhost:8050/public/img/google/ChIJLQ-HVYfDw0cRn6u8foioOqM.png",
     "nrPosts": 79,
     "lastPostTs": 1561549337
   },
   {
     "googlePlaceId": "ChIJOe0xRoDDw0cRNLD9V_ZOzNQ",
     "googlePlaceName": "Scott's Bar",
+    "imgUri": "http://localhost:8050/public/img/google/ChIJOe0xRoDDw0cRNLD9V_ZOzNQ.png",
     "nrPosts": 78,
     "lastPostTs": 1561549353
   },
   {
     "googlePlaceId": "ChIJ_ZFHRIbDw0cRbX37JHw3mX8",
     "googlePlaceName": "Skylab",
+    "imgUri": "http://localhost:8050/public/img/google/ChIJ_ZFHRIbDw0cRbX37JHw3mX8.png",
     "nrPosts": 76,
     "lastPostTs": 1561549384
   },
   {
     "googlePlaceId": "ChIJkSbOUHjEw0cR8wRtfOyobBQ",
     "googlePlaceName": "Cartagena Salsa Bar",
+    "imgUri": "http://localhost:8050/public/img/google/ChIJkSbOUHjEw0cR8wRtfOyobBQ.png",
     "nrPosts": 75,
     "lastPostTs": 1561549438
   },
   {
     "googlePlaceId": "ChIJGXjMx4fDw0cRETXvJX7rK0k",
     "googlePlaceName": "Bar Des Amis",
+    "imgUri": "http://localhost:8050/public/img/google/ChIJGXjMx4fDw0cRETXvJX7rK0k.png",
     "nrPosts": 74,
     "lastPostTs": 1561549467
   },
   {
     "googlePlaceId": "ChIJLR0WRYbDw0cRe4ne74PDFF8",
     "googlePlaceName": "Madame Moustache",
+    "imgUri": "http://localhost:8050/public/img/google/ChIJLR0WRYbDw0cRe4ne74PDFF8.png",
     "nrPosts": 73,
     "lastPostTs": 1561559257
   },
   {
     "googlePlaceId": "ChIJ0yawxn_Ew0cRcYcsPFMH5_M",
     "googlePlaceName": "BrewDog Brussels",
+    "imgUri": "http://localhost:8050/public/img/google/ChIJ0yawxn_Ew0cRcYcsPFMH5_M.png",
     "nrPosts": 72,
     "lastPostTs": 1561559284
   },
   {
     "googlePlaceId": "ChIJraMjpYDEw0cRig1VL2x9PMU",
     "googlePlaceName": "La Pharmacie Anglaise",
+    "imgUri": "http://localhost:8050/public/img/google/ChIJraMjpYDEw0cRig1VL2x9PMU.png",
     "nrPosts": 71,
     "lastPostTs": 1561559306
   },
   {
     "googlePlaceId": "ChIJvYaIWXjEw0cRqUMbnzYa8tA",
     "googlePlaceName": "Rock Classic",
+    "imgUri": "http://localhost:8050/public/img/google/ChIJvYaIWXjEw0cRqUMbnzYa8tA.png",
     "nrPosts": 70,
     "lastPostTs": 1561559336
   },
   {
     "googlePlaceId": "ChIJ0Yp2ZYDDw0cRhsIm9JySp4w",
     "googlePlaceName": "A la Mort Subite",
+    "imgUri": "http://localhost:8050/public/img/google/ChIJ0Yp2ZYDDw0cRhsIm9JySp4w.png",
     "nrPosts": 69,
     "lastPostTs": 1561559362
   }
